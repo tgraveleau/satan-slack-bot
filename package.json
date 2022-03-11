@@ -1,0 +1,25 @@
+{
+  "name": "satan-slack-bot",
+  "version": "1.0.0",
+  "description": "Un bot pour notre slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgraveleau/satan-slack-bot.git"
+  },
+  "author": "tgraveleau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgraveleau/satan-slack-bot/issues"
+  },
+  "homepage": "https://github.com/tgraveleau/satan-slack-bot#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "slackbots": "^1.2.0"
+  }
+}
